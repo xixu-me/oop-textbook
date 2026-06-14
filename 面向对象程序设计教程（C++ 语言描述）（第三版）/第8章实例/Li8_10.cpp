@@ -11,7 +11,7 @@ class Mytel
 	public:
 		void getdata()
 		{
-			cin>>name>>telno;
+			cin >> setw(12) >> name >> setw(12) >> telno;
 		}
 		void disp()
 		{
